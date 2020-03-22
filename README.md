@@ -21,6 +21,6 @@ Group members:
 - Aloori Rakshith 17CS10004
 - Bolisetti Bhanuteja 17CS10010
 - Nandyala Avinash 17CS10028
-- Tallapally Maniteja17CS10053
+- Tallapally Maniteja 17CS10053
 
 ---

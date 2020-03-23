@@ -10,7 +10,7 @@ Examples of queries that can be supported for this database are:
 - Search tickets with PNR ENQUIRY
 - Add Admin to the Database for handling the Bus Management system
 
-We can use this DBMS for any bus management system like ., Red bus etc.,
+We can use this DBMS for any bus management system like redBus, AbhiBus and more.
 There will be an admin page from where the data in the database will be handled
 or added by the admins.
 

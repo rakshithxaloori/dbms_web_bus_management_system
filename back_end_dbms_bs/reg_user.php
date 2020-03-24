@@ -38,7 +38,7 @@ a:hover, a:active {
 			<label>Name:</label>
 			<input name = "name" placeholder = "Name" type="text"><br><br>
             <label>Age:</label>
-			<input name = "age" placeholder = "Age" type="text"><br><br>
+			<input name = "age" placeholder = "Age" type="number"><br><br>
             <label>Gender:</label>
 			<input name = "gender" placeholder = "gender" type="text"><br><br>
             <label>Contact:</label>

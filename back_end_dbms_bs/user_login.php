@@ -28,13 +28,13 @@ a:hover, a:active {
 	<center>
 		<h1 class="header">Welcome to Bus Booking Database Management Platform</h1>
 		<p class = "header">Please Login to Manage BusBooking Database</p>
-		<form  action="adminlogin-backend.php" method = "POST" class="column container">
+		<form  action="user_login-backend.php" method = "POST" class="column container">
 			<label>username:</label>
-			<input name = "username" placeholder = "AdminUsername" type="text"><br><br>
+			<input name = "username" placeholder = "Username" type="text"><br><br>
 			<label>Password:</label>
-			<input name = "password" type = "password" placeholder = "Admins Password"><br><br>
+			<input name = "password" type = "password" placeholder = "Password"><br><br>
 			<button class="btn success" type = "submit">Submit</button>   <button class="btn danger" type = "reset">Clear</button>
-			<button class="create admin" type ="submit">Create new Admin</button>
+			<br /><button class="create admin" type ="submit">Create new User</button>
 	    </form>
 	</center>
 </body>

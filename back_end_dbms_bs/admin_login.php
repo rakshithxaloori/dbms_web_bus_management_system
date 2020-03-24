@@ -34,6 +34,7 @@ a:hover, a:active {
 			<label>Password:</label>
 			<input name = "password" type = "password" placeholder = "Admins Password"><br><br>
 			<button class="btn success" type = "submit">Submit</button>   <button class="btn danger" type = "reset">Clear</button>
+			<button class="create admin" type ="submit">Create new Admin</button>
 	    </form>
 	</center>
 </body>

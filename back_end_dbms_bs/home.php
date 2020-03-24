@@ -11,13 +11,11 @@
     <h1>BUS MANAGEMENT SYSTEM</h1>
     <div class="options">
       <a class="=home" href="./home.php">HOME</a>
-      <a class="=book_ticket" href="./book_ticket.html">BOOK TICKET</a>
-      <a class="=Register_admin" href="./reg_admin.html">REGISTER ADMIN</a>
-      <a class="=Register_user" href="./reg_user.html">REGISTER USER</a>
-      <a class="=Login_admin" href="./log_admin.html">LOGIN ADMIN</a>
-      <a class="=Login_user" href="./log_user.html">LOGIN USER</a>
-      <a class="=contactus" href="./contact_us.html">Contact US</a>
-      <a class="=help" href="./help.html">HELP</a>
+      <a class="=book_ticket" href="./book_ticket.php">BOOK TICKET</a>
+      <a class="=Register_admin" href="./reg_admin.php">REGISTER ADMIN</a>
+      <a class="=Register_user" href="./reg_user.php">REGISTER USER</a>
+      <a class="=Login_admin" href="./admin_login.php.">LOGIN ADMIN</a>
+      <a class="=Login_user" href="./user_login.php">LOGIN USER</a>
     </div>
     <div class="Welcome"><h1>WELCOME</h1></div>
   </body>

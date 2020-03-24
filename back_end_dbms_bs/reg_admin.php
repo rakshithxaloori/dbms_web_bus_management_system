@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="layoutsstyle.css">
-	<title>AdminSignup</title>
+	<title>Bus Management System | AdminSignup</title>
 	<style>
 		
 			a:link, a:visited {

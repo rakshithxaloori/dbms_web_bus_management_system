@@ -1,5 +1,5 @@
 <?php 
-require_once 'dbconnect.php'
+require_once 'dbconnect.php';
 $name=$_POST["name"];
 $age=$_POST["age"];
 $gender=$_POST["gender"];

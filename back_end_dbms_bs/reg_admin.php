@@ -33,7 +33,7 @@ a:hover, a:active {
     	</div>
 	<center>
 		
-		<form action = "signup-backend.php" method = "POST" class="container">
+		<form action = "reg_admin-backend.php" method = "POST" class="container">
 			<label>Name:</label>
 			<input name = "name" placeholder = "Name" type="text"><br><br>
             <label>Age:</label>

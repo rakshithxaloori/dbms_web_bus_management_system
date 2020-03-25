@@ -1,0 +1,628 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /opt/lampp/htdocs/dbms_web_bus_management_system
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :back_end_dbms_bs/admin_login.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/admin_login.php
+> git cat-file -s 70a549e29c27ab77eb0b8443a2066ec1304ef775
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :back_end_dbms_bs/admin_login-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/admin_login-backend.php
+> git cat-file -s fcea753e9bcb9a70c7bbe56c643b46f57f825a8c
+> git show :back_end_dbms_bs/admin_login.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/admin_login.php
+> git cat-file -s 70a549e29c27ab77eb0b8443a2066ec1304ef775
+> git show :back_end_dbms_bs/user_login.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login.php
+> git cat-file -s b4ba11cc3abfa801cb55c09c0fd81fd97f9d44a6
+> git show :back_end_dbms_bs/reg_user.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/reg_user.php
+> git cat-file -s ef7ef83a2d130afc4d2e2b345eabbd551f72a8a8
+> git show :back_end_dbms_bs/reg_user-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/reg_user-backend.php
+> git cat-file -s 980cb9818dde9ad00c95ddd10177f0a6929bf4da
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/reg_user-backend.php
+> git cat-file -s 7cab02067d3b1b5bfb55481174c78cbaffa0a3b2
+> git show :back_end_dbms_bs/reg_user-backend.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :back_end_dbms_bs/user_login-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login-backend.php
+> git cat-file -s 78392897b55a86d360b251c84a1e1bb26bac9779
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :back_end_dbms_bs/user_login.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login.php
+> git cat-file -s b4ba11cc3abfa801cb55c09c0fd81fd97f9d44a6
+> git show :back_end_dbms_bs/user_login-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login-backend.php
+> git cat-file -s 78392897b55a86d360b251c84a1e1bb26bac9779
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :back_end_dbms_bs/reg_user.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/reg_user.php
+> git cat-file -s ef7ef83a2d130afc4d2e2b345eabbd551f72a8a8
+> git show :back_end_dbms_bs/reg_user-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/reg_user-backend.php
+> git cat-file -s 7cab02067d3b1b5bfb55481174c78cbaffa0a3b2
+> git show :back_end_dbms_bs/user_login-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login-backend.php
+> git cat-file -s 78392897b55a86d360b251c84a1e1bb26bac9779
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login-backend.php
+> git cat-file -s 46ecb39fff27a72ccd6e4b0fa46b4b0ab268f012
+> git show :back_end_dbms_bs/user_login-backend.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :back_end_dbms_bs/reg_user-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/reg_user-backend.php
+> git cat-file -s 7cab02067d3b1b5bfb55481174c78cbaffa0a3b2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/reg_user-backend.php
+> git cat-file -s 9eec847d279d6eb45d9f1bbb64540693bee46511
+> git show :back_end_dbms_bs/reg_user-backend.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :back_end_dbms_bs/usershome.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/usershome.php
+> git cat-file -s 8b137891791fe96927ad78e64b0aad7bded08bdc
+> git show :back_end_dbms_bs/reg_user.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/reg_user.php
+> git cat-file -s ef7ef83a2d130afc4d2e2b345eabbd551f72a8a8
+> git show :back_end_dbms_bs/usershome.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/usershome.php
+> git cat-file -s 8b137891791fe96927ad78e64b0aad7bded08bdc
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/usershome.php
+> git cat-file -s c938719a78ec47e19295e5a5658e812e8e399def
+> git show :back_end_dbms_bs/usershome.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :back_end_dbms_bs/adminshome.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/adminshome.php
+> git cat-file -s 8b137891791fe96927ad78e64b0aad7bded08bdc
+> git show :back_end_dbms_bs/usershome.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/usershome.php
+> git cat-file -s c938719a78ec47e19295e5a5658e812e8e399def
+> git show :back_end_dbms_bs/adminshome.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/adminshome.php
+> git cat-file -s 8b137891791fe96927ad78e64b0aad7bded08bdc
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/adminshome.php
+> git cat-file -s bc0266d9a5f699312c946111b9a02767f1f7c49a
+> git show :back_end_dbms_bs/adminshome.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :back_end_dbms_bs/admin_login.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/admin_login.php
+> git cat-file -s 70a549e29c27ab77eb0b8443a2066ec1304ef775
+> git show :back_end_dbms_bs/admin_login-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/admin_login-backend.php
+> git cat-file -s fcea753e9bcb9a70c7bbe56c643b46f57f825a8c
+> git show :back_end_dbms_bs/adminshome.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/adminshome.php
+> git cat-file -s bc0266d9a5f699312c946111b9a02767f1f7c49a
+> git show :back_end_dbms_bs/admin_login.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/admin_login.php
+> git cat-file -s 70a549e29c27ab77eb0b8443a2066ec1304ef775
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :back_end_dbms_bs/admin_login-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/admin_login-backend.php
+> git cat-file -s fcea753e9bcb9a70c7bbe56c643b46f57f825a8c
+> git show :back_end_dbms_bs/user_login-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login-backend.php
+> git cat-file -s 46ecb39fff27a72ccd6e4b0fa46b4b0ab268f012
+> git show :back_end_dbms_bs/admin_login.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/admin_login.php
+> git cat-file -s 70a549e29c27ab77eb0b8443a2066ec1304ef775
+> git show :back_end_dbms_bs/reg_user-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/reg_user-backend.php
+> git cat-file -s 9eec847d279d6eb45d9f1bbb64540693bee46511
+> git show :back_end_dbms_bs/admin_login-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/admin_login-backend.php
+> git cat-file -s fcea753e9bcb9a70c7bbe56c643b46f57f825a8c
+> git show :back_end_dbms_bs/admin_login.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/admin_login.php
+> git cat-file -s 70a549e29c27ab77eb0b8443a2066ec1304ef775
+> git show :back_end_dbms_bs/admin_login-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/admin_login-backend.php
+> git cat-file -s fcea753e9bcb9a70c7bbe56c643b46f57f825a8c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :back_end_dbms_bs/reg_admin-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/reg_admin-backend.php
+> git cat-file -s 8b137891791fe96927ad78e64b0aad7bded08bdc
+> git show :back_end_dbms_bs/reg_admin.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/reg_admin.php
+> git cat-file -s eb1bc6fd9c022479bd49d385df89854037bc1736
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :back_end_dbms_bs/reg_admin-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/reg_admin-backend.php
+> git cat-file -s 8b137891791fe96927ad78e64b0aad7bded08bdc
+> git show :back_end_dbms_bs/reg_user-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/reg_user-backend.php
+> git cat-file -s 9eec847d279d6eb45d9f1bbb64540693bee46511
+> git show :back_end_dbms_bs/reg_admin-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/reg_admin-backend.php
+> git cat-file -s 8b137891791fe96927ad78e64b0aad7bded08bdc
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :back_end_dbms_bs/reg_admin.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/reg_admin.php
+> git cat-file -s eb1bc6fd9c022479bd49d385df89854037bc1736
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/reg_admin.php
+> git cat-file -s 58b5cb87670c842b123a3b250bb1a0c3e3c7d205
+> git show :back_end_dbms_bs/reg_admin.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :back_end_dbms_bs/reg_user-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/reg_user-backend.php
+> git cat-file -s 9eec847d279d6eb45d9f1bbb64540693bee46511
+> git show :back_end_dbms_bs/reg_user.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/reg_user.php
+> git cat-file -s ef7ef83a2d130afc4d2e2b345eabbd551f72a8a8
+> git show :back_end_dbms_bs/user_login-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login-backend.php
+> git cat-file -s 46ecb39fff27a72ccd6e4b0fa46b4b0ab268f012
+> git show :back_end_dbms_bs/usershome.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/usershome.php
+> git cat-file -s c938719a78ec47e19295e5a5658e812e8e399def
+> git show :back_end_dbms_bs/user_login.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login.php
+> git cat-file -s b4ba11cc3abfa801cb55c09c0fd81fd97f9d44a6
+> git show :back_end_dbms_bs/user_login-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login-backend.php
+> git cat-file -s 46ecb39fff27a72ccd6e4b0fa46b4b0ab268f012
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :back_end_dbms_bs/admin_login-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/admin_login-backend.php
+> git cat-file -s 5e9e428e6da1178d0e173fbd6b81be7c633dceaf
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/admin_login-backend.php
+> git config --get commit.template
+> git cat-file -s 7af6dd745afe2e38c7ed2c4d46102b99bed24c20
+> git show :back_end_dbms_bs/admin_login-backend.php
+> git show :back_end_dbms_bs/user_login-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login-backend.php
+> git cat-file -s e403eff19debeaca001365be7efee93a1cb846e3
+> git show :back_end_dbms_bs/reg_admin-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/reg_admin-backend.php
+> git cat-file -s f5b9e4a88fd20f722fae58384d190a7f741fbdf0
+> git show :back_end_dbms_bs/user_login-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login-backend.php
+> git cat-file -s e403eff19debeaca001365be7efee93a1cb846e3
+> git show :back_end_dbms_bs/user_login.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login.php
+> git cat-file -s b4ba11cc3abfa801cb55c09c0fd81fd97f9d44a6
+> git show :back_end_dbms_bs/usershome.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/usershome.php
+> git cat-file -s c938719a78ec47e19295e5a5658e812e8e399def
+> git show :back_end_dbms_bs/reg_user-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/reg_user-backend.php
+> git cat-file -s 9eec847d279d6eb45d9f1bbb64540693bee46511
+> git show :back_end_dbms_bs/usershome.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/usershome.php
+> git cat-file -s c938719a78ec47e19295e5a5658e812e8e399def
+> git show :back_end_dbms_bs/adminshome.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/adminshome.php
+> git cat-file -s bc0266d9a5f699312c946111b9a02767f1f7c49a
+> git show :back_end_dbms_bs/admin_login.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/admin_login.php
+> git cat-file -s d286ca28ff7b68cb658458fae3a2bf02b82e7393
+> git show :back_end_dbms_bs/adminshome.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/adminshome.php
+> git cat-file -s bc0266d9a5f699312c946111b9a02767f1f7c49a
+> git show :back_end_dbms_bs/usershome.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/usershome.php
+> git cat-file -s c938719a78ec47e19295e5a5658e812e8e399def
+> git show :back_end_dbms_bs/user_login.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login.php
+> git cat-file -s b4ba11cc3abfa801cb55c09c0fd81fd97f9d44a6
+> git show :back_end_dbms_bs/user_login-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login-backend.php
+> git cat-file -s e403eff19debeaca001365be7efee93a1cb846e3
+> git show :back_end_dbms_bs/usershome.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/usershome.php
+> git cat-file -s c938719a78ec47e19295e5a5658e812e8e399def
+> git show :back_end_dbms_bs/user_login-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login-backend.php
+> git cat-file -s e403eff19debeaca001365be7efee93a1cb846e3
+> git show :back_end_dbms_bs/user_login.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login.php
+> git cat-file -s b4ba11cc3abfa801cb55c09c0fd81fd97f9d44a6
+> git show :back_end_dbms_bs/usershome.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/usershome.php
+> git cat-file -s c938719a78ec47e19295e5a5658e812e8e399def
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :back_end_dbms_bs/user_login.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login.php
+> git cat-file -s b4ba11cc3abfa801cb55c09c0fd81fd97f9d44a6
+> git show :back_end_dbms_bs/home.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/home.php
+> git cat-file -s 4ab6cf0a3beb68865cbc08f9ae83469b743cd712
+> git show :back_end_dbms_bs/usershome.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/usershome.php
+> git cat-file -s c938719a78ec47e19295e5a5658e812e8e399def
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :back_end_dbms_bs/user_login.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login.php
+> git cat-file -s b4ba11cc3abfa801cb55c09c0fd81fd97f9d44a6
+> git show :back_end_dbms_bs/usershome.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/usershome.php
+> git cat-file -s c938719a78ec47e19295e5a5658e812e8e399def
+> git show :back_end_dbms_bs/user_login.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login.php
+> git cat-file -s b4ba11cc3abfa801cb55c09c0fd81fd97f9d44a6
+> git show :back_end_dbms_bs/usershome.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/usershome.php
+> git cat-file -s c938719a78ec47e19295e5a5658e812e8e399def
+> git show :back_end_dbms_bs/user_login.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login.php
+> git cat-file -s b4ba11cc3abfa801cb55c09c0fd81fd97f9d44a6
+> git show :back_end_dbms_bs/usershome.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/usershome.php
+> git cat-file -s c938719a78ec47e19295e5a5658e812e8e399def
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :back_end_dbms_bs/user_login.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login.php
+> git cat-file -s b4ba11cc3abfa801cb55c09c0fd81fd97f9d44a6
+> git show :back_end_dbms_bs/usershome.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/usershome.php
+> git cat-file -s c938719a78ec47e19295e5a5658e812e8e399def
+> git show :back_end_dbms_bs/user_login.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login.php
+> git cat-file -s b4ba11cc3abfa801cb55c09c0fd81fd97f9d44a6
+> git show :back_end_dbms_bs/home.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/home.php
+> git cat-file -s 4ab6cf0a3beb68865cbc08f9ae83469b743cd712
+> git show :back_end_dbms_bs/usershome.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/usershome.php
+> git cat-file -s c938719a78ec47e19295e5a5658e812e8e399def
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :back_end_dbms_bs/usershome-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/usershome-backend.php
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :back_end_dbms_bs/user_login.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login.php
+> git cat-file -s b4ba11cc3abfa801cb55c09c0fd81fd97f9d44a6
+> git show :back_end_dbms_bs/usershome-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/usershome-backend.php
+> git show :back_end_dbms_bs/user_login-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login-backend.php
+> git cat-file -s e403eff19debeaca001365be7efee93a1cb846e3
+> git show :back_end_dbms_bs/usershome.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/usershome.php
+> git cat-file -s c938719a78ec47e19295e5a5658e812e8e399def
+> git show :back_end_dbms_bs/usershome-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/usershome-backend.php
+> git show :back_end_dbms_bs/user_login-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login-backend.php
+> git cat-file -s e403eff19debeaca001365be7efee93a1cb846e3
+> git show :back_end_dbms_bs/usershome-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/usershome-backend.php
+> git show :back_end_dbms_bs/user_login.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login.php
+> git cat-file -s b4ba11cc3abfa801cb55c09c0fd81fd97f9d44a6
+> git show :back_end_dbms_bs/user_login-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/user_login-backend.php
+> git cat-file -s e403eff19debeaca001365be7efee93a1cb846e3
+> git show :back_end_dbms_bs/usershome-backend.php
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/usershome-backend.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/usershome-backend.php
+> git config --get commit.template
+> git show :back_end_dbms_bs/usershome-backend.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/usershome-backend.php
+> git cat-file -s e0176bd5c7914caba8c385200143de7d84b0fa76
+> git show :back_end_dbms_bs/usershome-backend.php

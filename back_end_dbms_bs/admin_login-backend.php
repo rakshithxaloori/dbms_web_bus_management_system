@@ -3,6 +3,8 @@
 require_once 'dbconnect.php';
 $admin_username = $_POST["username"];
 $admin_password = $_POST["password"];
+$admin_password=md5($admin_password);
+
 $query = "SELECT * FROM admins WHERE username='$admin_username' and password='$admin_password'";
 
 $result = mysqli_query($con, $query);

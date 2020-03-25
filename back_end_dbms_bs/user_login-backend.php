@@ -3,6 +3,7 @@
 require_once 'dbconnect.php';
 $username = $_POST["username"];
 $password = $_POST["password"];
+$password=md5($password);
 $query = "SELECT * FROM users WHERE username='$username' and password='$password'";
 
 $result = mysqli_query($con, $query);

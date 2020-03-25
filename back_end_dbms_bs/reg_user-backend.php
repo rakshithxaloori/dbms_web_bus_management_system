@@ -7,7 +7,7 @@ $contact=$_POST["contact"];
 $email=$_POST["email"];
 $password= $_POST["password"];
 //hash th password
-$password=md5($password);
+// $password=md5($password);
 
 $query = "SELECT * FROM users WHERE username='$email'";
 $result = mysqli_query($con, $query);

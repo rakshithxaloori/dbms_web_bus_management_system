@@ -28,7 +28,7 @@ a:hover, a:active {
     <body>
     	<div class="header">
     		<h1>Bus Booking Platform</h1>
-    		<p>Please Provide the Following Details to  User SignUp</p>
+    		<p>Please Provide the Following Details to Admin SignUp</p>
     		
     	</div>
 	<center>

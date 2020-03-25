@@ -1,7 +1,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="layoutsstyle.css">
-	<title>Bus Management System</title>
+	<title>Bus Management System | Admin Login</title>
 	<style>
 		
 			a:link, a:visited {

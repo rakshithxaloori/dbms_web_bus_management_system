@@ -1,2 +1,8 @@
 [2020-03-26 11:21:47.952] [sharedprocess] [info] main {"machineId":"2aefbbcc5d595fde074d1b9e9dfe59fec35a103784623d7e6af684c2c1be4681","windowId":2}
 [2020-03-26 11:22:27.960] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-03-26 16:57:37.034] [sharedprocess] [info] Installing extension: ms-mssql.mssql
+[2020-03-26 16:57:49.280] [sharedprocess] [info] Downloaded extension: ms-mssql.mssql /tmp/9cf2642c-1841-4291-a781-95b9e0121c0c
+[2020-03-26 16:57:51.621] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.ms-mssql.mssql-1.9.0: ms-mssql.mssql
+[2020-03-26 16:57:51.621] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ms-mssql.mssql-1.9.0
+[2020-03-26 16:57:51.624] [sharedprocess] [info] Installation completed. ms-mssql.mssql
+[2020-03-26 16:57:51.781] [sharedprocess] [info] Extensions installed successfully: ms-mssql.mssql

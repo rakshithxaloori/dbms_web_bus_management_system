@@ -29,8 +29,15 @@ a:hover, a:active {
     	<div class="header">
     		<h1>Bus Booking Platform<-Adminhome</h1>
         <div class="admins_top_nav">
-            <form action="admin_login.php" method = "POST" class="u_topnav">
-                <button class="a_logout" type="submit">Logout</button>
+            <form action="add_model.php" method="POST" class="a_topnav">
+              <button class="a_add_model" type="submit">Add Model</button>
+            </form>
+            <form action="add_bus.php" method="POST" class="a_topnav">
+              <button class="a_add_bus" type="submit">Add Bus</button>
+            </form>
+            <form action="admin_login.php" method = "POST" class="a_topnav">
+              <button class="a_logout" type="submit">Logout</button>
+            </form>
     	  </div>
     </div>
 </body>

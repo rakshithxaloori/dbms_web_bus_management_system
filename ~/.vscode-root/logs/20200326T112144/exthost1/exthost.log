@@ -16,3 +16,7 @@
 [2020-03-26 11:21:46.302] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
 [2020-03-26 11:21:46.302] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/vscode-account/dist/extension.js
 [2020-03-26 11:21:46.316] [exthost] [info] eager extensions activated
+[2020-03-26 16:57:44.965] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:javascript"}
+[2020-03-26 16:57:44.966] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2020-03-26 16:57:51.900] [exthost] [info] ExtensionService#_doActivateExtension ms-mssql.mssql {"startup":false,"extensionId":{"value":"ms-mssql.mssql","_lower":"ms-mssql.mssql"},"activationEvent":"onLanguage:sql"}
+[2020-03-26 16:57:51.900] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ms-mssql.mssql-1.9.0/out/src/extension

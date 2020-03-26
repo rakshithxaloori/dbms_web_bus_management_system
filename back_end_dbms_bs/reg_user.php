@@ -29,7 +29,7 @@ a:hover, a:active {
     <body>
     	<div class="header">
     		<h1>Bus Booking Platform</h1>
-    		<p>Please Provide the Following Details to  Admin SignUp</p>
+    		<p>Please Provide the Following Details to  UserSignup</p>
     		
     	</div>
 	<center>
@@ -40,7 +40,9 @@ a:hover, a:active {
             <label>Age:</label>
 			<input name = "age" placeholder = "Age" type="number"><br><br>
             <label>Gender:</label>
-			<input name = "gender" placeholder = "gender" type="text"><br><br>
+			<input type="radio" name="gender" value="female">Female
+			<input type="radio" name="gender" value="male">Male
+			<input type="radio" name="gender" value="other">Other<br><br>
             <label>Contact:</label>
 			<input name = "contact" placeholder = "Contact" type="text"><br><br>
         

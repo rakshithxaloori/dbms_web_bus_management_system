@@ -14,7 +14,11 @@ if($numResults == 1)
 {
 	$query = "UPDATE users SET user_login_count = user_login_count + 1 WHERE username='$username'";
 	mysqli_query($con, $query);
-	require_once"usershome.php";
+	session_start();
+	$_SESSION['loggedin']=true;
+	$_SESSION['username']=$username;
+
+	require_once "usershome-backend.php";
 
 }
 else

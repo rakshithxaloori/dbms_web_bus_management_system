@@ -26,10 +26,10 @@ a:hover, a:active {
   
     <body>
     	<div class="header">
-    		<h1>Bus Booking Platform<-Userhome</h1>
+    		<h1>Bus Booking Platform<-</h1>
     	</div>
         <div class="users_top_nav">
-            <form action="usershome-backend.php" method = "POST" class="u_topnav">
+            <form action="user_login.php" method = "POST" class="u_topnav">
                 <button class="u_logout" type="submit">Logout</button>
             </form>            
         </div>

@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="layoutsstyle.css">
-	<title>Bus Mangement System | AddModel</title>
+	<title>Bus Mangement System | Assign_bus</title>
 	<style>
 		
 			a:link, a:visited {
@@ -26,7 +26,7 @@ a:hover, a:active {
 </head>
     <body>
     	<div class="header">
-    		<h1>Bus Booking Platform<-AddModel</h1>
+    		<h1>Bus Booking Platform<-AddStation</h1>
 
         <div class="admins_top_nav">
 
@@ -53,15 +53,8 @@ a:hover, a:active {
 
     </div>
 
-    <form action="add_model-backend.php" method="POST" class ="a_adddetails">
-      <center>
-        <label>Model_Name:</label>
-        <input name = "model_name" placeholder = "Model name" type="text"><br><br>
-        <label>farepkm:</label>
-        <input name = "farepkm" placeholder = "" type="text"><br><br>
-
-        <button class="btn success" type = "submit">Create model</button>   <button class="btn danger" type = "reset">Clear</button>
-      </center>
+    <form action="assign_bus-backend.php" method="POST" class ="a_adddetails">
+      
     </form>
 </body>
 </html>

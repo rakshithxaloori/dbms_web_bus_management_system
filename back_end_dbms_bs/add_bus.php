@@ -29,23 +29,33 @@ a:hover, a:active {
     	<div class="header">
     		<h1>Bus Booking Platform<-AddBus</h1>
         <div class="admins_top_nav">
-             <form action="add_model.php" method="POST" class="a_topnav">
+            <form action="add_station.php" method="POST" class="a_topnav">
+              <button class="a_add_station" type="submit">Add Station</button>
+            </form>
+            <form action="add_model.php" method="POST" class="a_topnav">
               <button class="a_add_model" type="submit">Add Model</button>
             </form>
             <form action="add_bus.php" method="POST" class="a_topnav">
               <button class="a_add_bus" type="submit">Add Bus</button>
             </form>
+            <form action="add_route.php" method="POST" class="a_topnav">
+              <button class="a_add_route" type="submit">Add Route</button>
+            </form>
+            <form action="assign_bus.php" method="POST" class="a_topnav">
+              <button class="assign_bus" type="submit">Assign Bus</button>
+            </form>
             <form action="admin_login.php" method = "POST" class="a_topnav">
               <button class="a_logout" type="submit">Logout</button>
             </form>
     	  </div>
-          <form action="add_bus.php" method="POST" class ="a_adddetails">
-                <center>
-                    <label>Bus_id:</label>
-			        <input name = "bus_id" placeholder = "Bus id" type="number"><br><br>
-			        <button class="btn success" type = "submit">create bus</button>   <button class="btn danger" type = "reset">Clear</button>
-                </center>
-          </form>
     </div>
+
+    <form action="add_bus.php" method="POST" class ="a_adddetails">
+      <center>
+        <label>Bus_id:</label>
+        <input name = "bus_id" placeholder = "Bus id" type="number"><br><br>
+        <button class="btn success" type = "submit">create bus</button>   <button class="btn danger" type = "reset">Clear</button>
+      </center>
+</form>
 </body>
 </html>

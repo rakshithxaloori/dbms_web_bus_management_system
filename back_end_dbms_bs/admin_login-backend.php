@@ -17,8 +17,8 @@ if($numResults == 1)
 	mysqli_query($con, $query);
 	require_once"adminshome.php";
 	session_start();
-	$_SESSION['admin_loggedin']=true;
-	$_SESSION['admin_username']=$username;
+	$_SESSION['loggedin']=true;
+	$_SESSION['a_username']=$admin_username;
 	require_once "adminshome-backend.php";
 
 }

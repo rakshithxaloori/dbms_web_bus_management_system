@@ -30,9 +30,9 @@ a:hover, a:active {
 		<p class = "header">Please Login to Manage BusBooking Database</p>
 		<?php 
 		session_start();
-			if(isset($_SESSION["admin_loggedin"])&&$_SESSION["admin_loggedin"]==true){
-				unset($_SESSION["admin_loggedin"]);
-				unset($_SESSION["admin_username"]);
+			if(isset($_SESSION["loggedin"])&&$_SESSION["loggedin"]==true){
+				unset($_SESSION["loggedin"]);
+				unset($_SESSION["a_username"]);
 				echo "<center><h3>logged out succesfully...</h3></center>\n";
 			}			
 		?>

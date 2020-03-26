@@ -28,7 +28,10 @@ a:hover, a:active {
     <body>
     	<div class="header">
     		<h1>Bus Booking Platform<-Adminhome</h1>
-    	</div>
-</div>
+        <div class="admins_top_nav">
+            <form action="admin_login.php" method = "POST" class="u_topnav">
+                <button class="a_logout" type="submit">Logout</button>
+    	  </div>
+    </div>
 </body>
 </html>

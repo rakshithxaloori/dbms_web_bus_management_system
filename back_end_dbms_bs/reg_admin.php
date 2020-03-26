@@ -39,10 +39,11 @@ a:hover, a:active {
             <label>Age:</label>
 			<input name = "age" placeholder = "Age" type="text"><br><br>
             <label>Gender:</label>
-			<input name = "gender" placeholder = "gender" type="text"><br><br>
+			<input type="radio" name="gender" value="female">Female
+			<input type="radio" name="gender" value="male">Male
+			<input type="radio" name="gender" value="other">Other<br><br>
             <label>Contact:</label>
 			<input name = "contact" placeholder = "Contact" type="text"><br><br>
-        
 			<label>Email:</label>
 			<input name = "email" placeholder = "Email" type="email"><br><br>
 			<label>Password:</label>

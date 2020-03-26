@@ -28,14 +28,24 @@ a:hover, a:active {
 	<center>
 		<h1 class="header">Welcome to Bus Booking Database Management Platform</h1>
 		<p class = "header">Please Login to Manage BusBooking Database</p>
+		<?php 
+		session_start();
+			if(isset($_SESSION["admin_loggedin"])&&$_SESSION["admin_loggedin"]==true){
+				unset($_SESSION["admin_loggedin"]);
+				unset($_SESSION["admin_username"]);
+				echo "<center><h3>logged out succesfully...</h3></center>\n";
+			}			
+		?>
 		<form  action="admin_login-backend.php" method = "POST" class="column container">
 			<label>username:</label>
 			<input name = "username" placeholder = "AdminUsername" type="text"><br><br>
 			<label>Password:</label>
 			<input name = "password" type = "password" placeholder = "Admins Password"><br><br>
 			<button class="btn success" type = "submit">Submit</button>   <button class="btn danger" type = "reset">Clear</button>
-			<br /><button class="create admin" type ="submit">Create new Admin</button>
 	    </form>
+		<form action="reg_admin.php" method ="POST" class= "create_new_admin_bttn">
+			<br /><button class="create admin" type ="submit">Create new Admin</button>	
+		</form>
 	</center>
 </body>
 </html> 

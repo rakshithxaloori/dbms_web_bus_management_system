@@ -23,7 +23,8 @@ if($numResults == 1)
 }
 else
 {
-	echo "<br><br><br><center><h1>Invalid credentials!</h1></center>";
+	echo "<br><br><br><h1>Invalid credentials!</h1>";
+	require_once "user_login.php";
 }
 
 ?>

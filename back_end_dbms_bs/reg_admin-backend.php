@@ -23,7 +23,7 @@ else
 	//require_once 'dbconnect.php';
 	echo'<center><h2 style="color:white;background-color:#333;">Admin Successfully Registered</h2></center>';
 	$sql=mysqli_query($con, "insert into admins (username,password,name,age,gender,contact) values ('$email', '$password', '$name','$age','$gender','$contact')");
-	if($sql)require_once"home.php";
+	if($sql)require_once "home.php";
     else echo("Error description: ".mysqli_error($con)); 
 }
 

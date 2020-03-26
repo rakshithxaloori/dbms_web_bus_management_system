@@ -44,7 +44,7 @@ a:hover, a:active {
 			<button class="btn success" type = "submit">Submit</button>   <button class="btn danger" type = "reset">Clear</button>
 	    </form>
 		<form action="reg_user.php" method ="POST" class= "create_new_user_bttn">
-		<br /><button class="create admin" type ="submit">Create new User</button>	
+			<br /><button class="create user" type ="submit">Create new User</button>	
 		</form>
 	</center>
 </body>

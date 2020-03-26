@@ -16,11 +16,17 @@ if($numResults == 1)
 	$query = "UPDATE admins SET admin_login_count = admin_login_count + 1 WHERE username='$admin_username'";
 	mysqli_query($con, $query);
 	require_once"adminshome.php";
+	session_start();
+	$_SESSION['admin_loggedin']=true;
+	$_SESSION['admin_username']=$username;
+	require_once "adminshome-backend.php";
 
 }
 else
 {
-	echo "<br><br><br><center><h1>Invalid credentials!</h1></center>";
+	echo "<br><br><br><h3>Invalid credentials!</h3>";
+	require_once "admin_login.php";
+
 }
 
 ?>

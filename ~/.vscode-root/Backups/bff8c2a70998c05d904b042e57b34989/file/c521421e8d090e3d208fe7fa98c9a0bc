@@ -1,0 +1,51 @@
+file:///opt/lampp/htdocs/dbms_web_bus_management_system/back_end_dbms_bs/bms_create.sql {"mtime":1585235244722,"ctime":1585221525821,"size":1274,"etag":"34q1erqrm1a3","orphaned":false}
+CREATE table admins(
+    	username varchar(100) not null,
+        password varchar(50) not null,
+        name varchar(40) not null,
+        age int(11) not null,
+        gender varchar(20), not null,
+        contact VARCHAR(15) not null,
+        admin_login_count int(11) not null,
+        primary key(username)
+);
+CREATE table users(
+    	username varchar(100) not null,
+        password varchar(50) not null,
+        name varchar(40) not null,
+        age int(11) not null,
+        gender varchar(20), not null,
+        contact VARCHAR(15) not null,
+        user_login_count int(11) not null,
+        primary key(username)
+);
+
+CREATE TABLE Model(
+    Model_name varchar(50) not null,
+    farepkm float not null,
+    created_by varachar(100) not null,
+    PRIMARY KEY(Model_name)
+    FOREIGN KEY model_fk1 (created_by)REFERENCES admins(username),
+    );
+
+
+CREATE TABLE Bus(
+    Bus_id int not null,
+    Capacity int not null,
+    vehicle_no varchar(20) not null ,
+    Model_name varchar(50) not null,
+    created_by VARCHAR(100) not null,
+    CONSTRAINT bus_pk1 PRIMARY KEY(Bus_id),
+    FOREIGN KEY bus_fk1(Model_name) REFERENCES Model(Model_name),
+    FOREIGN KEY bus_fk2(created_by) REFERENCES admins(username),
+    CONSTRAINT bus_uq1 UNIQUE(vehicle_no)
+    );
+
+CREATE TABLE Station(
+    station_code char(2) not null,
+    place varchar(50) not null,
+    station_name varchar(50) not null,
+    created_by VARCHAR(100) not null,
+    FOREIGN KEY st_fk1(created_by) REFERENCES admins(username),
+    UNIQUE(station_name)
+);

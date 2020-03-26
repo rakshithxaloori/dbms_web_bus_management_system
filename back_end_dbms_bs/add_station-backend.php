@@ -2,7 +2,7 @@
 require_once "dbconnect.php";
 session_start();
 
-if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
+if (isset($_SESSION['a_loggedin']) && $_SESSION['a_loggedin'] == true) {
 
     $station_code=$_POST["station_code"];
     $place=$_POST["place"];

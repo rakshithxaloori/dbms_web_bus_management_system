@@ -39,3 +39,5 @@ CREATE TABLE Bus(
     FOREIGN KEY bus_fk2(created_by) REFERENCES admins(username),
     CONSTRAINT bus_uq1 UNIQUE(vehicle_no)
     );
+
+CREATE ta

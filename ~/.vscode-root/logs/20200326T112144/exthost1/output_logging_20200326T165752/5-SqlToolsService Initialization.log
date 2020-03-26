@@ -1,0 +1,11 @@
+Initializing SQL tools service for the mssql extension.
+Note: mssql commands will be available after installing the service.
+
+Platform: linux, x86_64, name=ubuntu, version=19.10 (Ubuntu16)
+
+Installing SQL tools service to /root/.vscode/extensions/ms-mssql.mssql-1.9.0/sqltoolsservice/1.9.0/Ubuntu16.
+Downloading https://download.microsoft.com/download/4/1/c/41ceb814-b8d3-4157-9dd0-b4aa0e11484d/microsoft.sqltools.servicelayer-rhel-x64-netcoreapp2.2.tar.gz
+(42606 KB) .................... Done!
+Installing ...
+Done! 475 files unpacked.
+

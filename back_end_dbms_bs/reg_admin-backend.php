@@ -16,7 +16,8 @@ $numResults = mysqli_num_rows($result);
 
 if($numResults == 1)
 {
-	echo "<h3>Your Email is Already registered!</h3>";
+	echo'<center><h3 style="color:white;background-color:#333;">Your Email is Already registered!</h3></center>';
+
 	require_once "reg_admin.php";
 
 }

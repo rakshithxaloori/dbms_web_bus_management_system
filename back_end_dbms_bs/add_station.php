@@ -62,7 +62,7 @@ a:hover, a:active {
         <label>Station Name:</label>
         <input name = "station_name" placeholder = "Station_name" type="text"><br><br>
 
-        <button class="btn success" type = "submit">Create model</button>   <button class="btn danger" type = "reset">Clear</button>
+        <button class="btn success" type = "submit">Create Station</button>   <button class="btn danger" type = "reset">Clear</button>
       </center>
     </form>
 </body>

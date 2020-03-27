@@ -1,0 +1,1 @@
+(SELECT * FROM Route WHERE Route_id = 1 ORDER by dis_from_source_in_km DESC LIMIT 1) union ALL (SELECT * FROM Route WHERE Route_id = 1 ORDER by dis_from_source_in_km ASC LIMIT 1)

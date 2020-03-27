@@ -9,10 +9,12 @@ if(isset($_SESSION["a_loggedin"])&&($_SESSION["a_loggedin"]==true)){
     $_farepkm=(float)$farepkm;
     $created_by =$_SESSION["a_username"];
 
-    $query = "SELECT * FROM Bus WHERE Bus_id='$bus_id'";
+    $query = "SELECT * FROM Model WHERE Model_name='$model_name'";
     $result = mysqli_query($con, $query);
     $numResults = mysqli_num_rows($result);
     if($numResults==1){
+        echo'<center><h3 style="color:white;background-color:#333;">Already model exists</h3></center>';
+        require_once "add_model.php";
 
     }
     else{

@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="layoutsstyle.css">
-	<title>Bus Mangement System | AddStation</title>
+	<title>Bus Mangement System | AddRoute</title>
 	<style>
 		
 			a:link, a:visited {
@@ -54,6 +54,9 @@ a:hover, a:active {
     </div>
 
     <form action="add_route-backend.php" method="POST" class ="a_adddetails">
+        <label>Route id :</label>
+        <input name = "route_id" placeholder = "Route id" type="number"><br><br>
+        <button class="btn success" type = "submit">create bus</button>   <button class="btn danger" type = "reset">Clear</button>
     </form>
 </body>
 </html>

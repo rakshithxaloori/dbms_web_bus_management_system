@@ -52,9 +52,13 @@ a:hover, a:active {
     	  </div> 
 
     </div>
-
+      <div class="buses_remaining">
+          <h2>Buses free to assign route:</h2>
+          <?php 
+              
+          ?>
+      </div>
     <form action="assign_bus-backend.php" method="POST" class ="a_adddetails">
-      
     </form>
 </body>
 </html>

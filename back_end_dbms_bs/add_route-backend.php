@@ -7,7 +7,6 @@ if(isset($_SESSION['a_loggedin']) && $_SESSION['a_loggedin'] == true){
         echo "please enter atleast 2 stations!";
         //require_once "add_route.php";
     }
-
     else{
         for($i = 0; $i < count($_POST['station_code']); $i++)
         {
@@ -22,10 +21,10 @@ if(isset($_SESSION['a_loggedin']) && $_SESSION['a_loggedin'] == true){
                     VALUES('$route_id', '$station_code', '$dist_from_source', '$time_from_source','$created_by')";
             $SQ=mysqli_query($con, $sql);
             echo'<center><h2 style="color:white;background-color:#333;">Route Successfully Registered</h2></center>';
-
-            if($SQ)require_once "adminshome.php";
+            if($SQ)echo "";
             else echo("Error description: ".mysqli_error($con));
         }
+        require_once "adminshome.php";
     }
 }
 

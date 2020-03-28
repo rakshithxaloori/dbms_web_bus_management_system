@@ -1,9 +1,11 @@
 
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="layoutsstyle.css">
+  <link rel="stylesheet" href="./layout/layout.css"type="text/css"> 
+	<link href="css/bootstrap.min.css.map" rel="stylesheet" type="text/css"  >
+ 
 	<title>Bus Mangement System | AddBus</title>
-	<style>
+	<!-- <style>
 		
 			a:link, a:visited {
   background-color: #2196F3;
@@ -22,35 +24,25 @@ a:hover, a:active {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 		
-	</style>
+	</style> -->
 </head>
   
     <body>
-    	<div class="header">
-    		<h1>Bus Booking Platform<-AddBus</h1>
-        <div class="admins_top_nav">
-            <form action="add_station.php" method="POST" class="a_topnav">
-              <button class="a_add_station" type="submit">Add Station</button>
-            </form>
-            <form action="add_model.php" method="POST" class="a_topnav">
-              <button class="a_add_model" type="submit">Add Model</button>
-            </form>
-            <form action="add_bus.php" method="POST" class="a_topnav">
-              <button class="a_add_bus" type="submit">Add Bus</button>
-            </form>
-            <form action="add_route.php" method="POST" class="a_topnav">
-              <button class="a_add_route" type="submit">Add Route</button>
-            </form>
-            <form action="assign_bus.php" method="POST" class="a_topnav">
-              <button class="assign_bus" type="submit">Assign Bus</button>
-            </form>
-            <form action="admin_login.php" method = "POST" class="a_topnav">
-              <button class="a_logout" type="submit">Logout</button>
-            </form>
-    	  </div>
+    	<div class="heading">
+        <h1>Bus Booking Platform<-AddBus</h1>
     </div>
+      
+        <div class="options">
+            <a href="add_station.php">Add Station</a>
+            <a href="add_model.php" type="submit">Add Model</a>
+            <a href="add_bus.php" type="submit">Add Bus</a>
+            <a href="add_route.php" type="submit">Add Route</a>
+            <a href="assign_bus.php" type="submit">Assign Bus</a>
+            <a href="admin_login.php" type="submit">Logout</a>
 
-    <form action="add_bus-backend.php" method="POST" class ="a_adddetails" id="busform">
+    	  </div>
+
+    <form action="add_bus-backend.php" method="POST" class ="container" id="busform">
       <center>
         <label>Bus id:</label>
         <input name = "bus_id" placeholder = "Bus id" type="number"><br><br>

@@ -9,7 +9,6 @@
 	    $sql=mysqli_query($con, "DELETE FROM Travel_on WHERE Bus_id = '$rem_bus'");
 	    if($sql)require_once "assign_bus.php";
         else echo("Error description: ".mysqli_error($con));
-
     }
     else{
         echo "Please log in first to see users page.";

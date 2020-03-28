@@ -2,7 +2,9 @@
 
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="layoutsstyle.css">
+	<link rel="stylesheet" href="./layout/layout.css"type="text/css"> 
+	<link href="css/bootstrap.min.css.map" rel="stylesheet" type="text/css"  >
+
 	<title>Bus Mangement System | UserSignup</title>
 	<style>
 		
@@ -27,7 +29,7 @@ a:hover, a:active {
 </head>
   
     <body>
-    	<div class="header">
+    	<div class="heading">
     		<h1>Bus Booking Platform</h1>
     		<p>Please Provide the Following Details to  UserSignup</p>
     		

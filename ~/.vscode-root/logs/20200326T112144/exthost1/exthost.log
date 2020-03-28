@@ -20,3 +20,12 @@
 [2020-03-26 16:57:44.966] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
 [2020-03-26 16:57:51.900] [exthost] [info] ExtensionService#_doActivateExtension ms-mssql.mssql {"startup":false,"extensionId":{"value":"ms-mssql.mssql","_lower":"ms-mssql.mssql"},"activationEvent":"onLanguage:sql"}
 [2020-03-26 16:57:51.900] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ms-mssql.mssql-1.9.0/out/src/extension
+[2020-03-28 14:13:06.075] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"extensionId":{"value":"vscode.css-language-features","_lower":"vscode.css-language-features"},"activationEvent":"onLanguage:css"}
+[2020-03-28 14:13:06.093] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/css-language-features/client/dist/cssMain
+[2020-03-28 14:22:46.345] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-03-28 14:22:46.345] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2020-03-28 14:46:58.363] [exthost] [info] ExtensionService#_doActivateExtension vscode.image-preview {"startup":false,"extensionId":{"value":"vscode.image-preview","_lower":"vscode.image-preview"},"activationEvent":"onCustomEditor:imagePreview.previewEditor"}
+[2020-03-28 14:46:58.364] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/image-preview/dist/extension
+[2020-03-28 15:23:11.510] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-03-28 15:23:11.511] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180337)

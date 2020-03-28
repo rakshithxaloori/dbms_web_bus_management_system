@@ -1,7 +1,9 @@
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="layoutsstyle.css">
 	<title>Bus Management System</title>
+	<link rel="stylesheet" href="./layout/layout.css"type="text/css"> 
+	<link href="css/bootstrap.min.css.map" rel="stylesheet" type="text/css"  >
+
 	<style>
 		
 			a:link, a:visited {
@@ -26,8 +28,8 @@ a:hover, a:active {
 <body >
 	<br><br>
 	<center>
-		<h1 class="header">Welcome to Bus Booking Database Management Platform</h1>
-		<p class = "header">Please Login to Manage BusBooking Database</p>
+		<h1 class="heading">Welcome to Bus Booking Database Management Platform</h1>
+		<p class = "heading">Please Login to Manage BusBooking Database</p>
 		<?php 
 		session_start();
 			if(isset($_SESSION["loggedin"])&&$_SESSION["loggedin"]==true){
@@ -44,7 +46,7 @@ a:hover, a:active {
 			<button class="btn success" type = "submit">Submit</button>   <button class="btn danger" type = "reset">Clear</button>
 	    </form>
 		<form action="reg_user.php" method ="POST" class= "create_new_user_bttn">
-			<br /><button class="create user" type ="submit">Create new User</button>	
+			<br /><button class="create_user" type ="submit">Create new User</button>	
 		</form>
 	</center>
 </body>

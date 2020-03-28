@@ -1,8 +1,11 @@
 
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="layoutsstyle.css">
 	<title>Bus Management System | AdminSignup</title>
+	<link rel="stylesheet" href="./layout/layout.css"type="text/css"> 
+	<link href="css/bootstrap.min.css.map" rel="stylesheet" type="text/css"  >
+
+
 	<style>
 		
 			a:link, a:visited {
@@ -17,6 +20,7 @@
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
+
 a:hover, a:active {
   background-color: #0b7dda;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -26,15 +30,15 @@ a:hover, a:active {
 </head>
   
     <body>
-    	<div class="header">
+    	<div class="heading">
     		<h1>Bus Booking Platform</h1>
     		<p>Please Provide the Following Details to Admin SignUp</p>
     		
     	</div>
 	<center>
-		
+		<div class="Container">
 		<form action = "reg_admin-backend.php" method = "POST" class="container">
-			<label>Name:</label>
+			<label >Name:</label>
 			<input name = "name" placeholder = "Name" type="text"><br><br>
             <label>Age:</label>
 			<input name = "age" placeholder = "Age" type="text"><br><br>
@@ -51,6 +55,7 @@ a:hover, a:active {
 			<button class="btn success"type = "submit">Submit</button>
 			<button class="btn danger"type = "reset">ClearEntries</button>
 		</form>
+		</div>
 	</center>
 </div>
 </body>

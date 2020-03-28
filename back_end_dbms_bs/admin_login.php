@@ -28,6 +28,9 @@ a:hover, a:active {
 	<center>
 		<h1 class="header">Welcome to Bus Booking Database Management Platform</h1>
 		<p class = "header">Please Login to Manage BusBooking Database</p>
+		<link rel="stylesheet" href="./layout/layout.css"type="text/css"> 
+		<link href="css/bootstrap.min.css.map" rel="stylesheet" type="text/css"  >
+
 		<?php 
 		session_start();
 			if(isset($_SESSION["a_loggedin"])&&$_SESSION["a_loggedin"]==true){
@@ -44,7 +47,7 @@ a:hover, a:active {
 			<button class="btn success" type = "submit">Submit</button>   <button class="btn danger" type = "reset">Clear</button>
 	    </form>
 		<form action="reg_admin.php" method ="POST" class= "create_new_admin_bttn">
-			<br /><button class="create admin" type ="submit">Create new Admin</button>	
+			<br /><button class="create_user" type ="submit">Create new Admin</button>	
 		</form>
 	</center>
 </body>

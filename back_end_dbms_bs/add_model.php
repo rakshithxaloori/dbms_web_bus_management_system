@@ -1,9 +1,12 @@
 
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="layoutsstyle.css">
+  <link rel="stylesheet" type="text/css" href="layoutsstyle.css">
+  <link rel="stylesheet" href="./layout/layout.css"type="text/css"> 
+	<link href="css/bootstrap.min.css.map" rel="stylesheet" type="text/css"  >
+
 	<title>Bus Mangement System | AddModel</title>
-	<style>
+	<!-- <style>
 		
 			a:link, a:visited {
   background-color: #2196F3;
@@ -22,13 +25,14 @@ a:hover, a:active {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 		
-	</style>
+	</style> -->
 </head>
     <body>
-    	<div class="header">
+    	<div class="heading">
     		<h1>Bus Booking Platform<-AddModel</h1>
+        </div>
 
-        <div class="admins_top_nav">
+        <!-- <div class="admins_top_nav">
 
           <form action="add_station.php" method="POST" class="a_topnav">
             <button class="a_add_station" type="submit">Add Station</button>
@@ -49,11 +53,18 @@ a:hover, a:active {
             <button class="a_logout" type="submit">Logout</button>
           </form>
 
-    	  </div> 
+    	  </div>  -->
+        <div class="options">
+            <a href="add_station.php">Add Station</a>
+            <a href="add_model.php" type="submit">Add Model</a>
+            <a href="add_bus.php" type="submit">Add Bus</a>
+            <a href="add_route.php" type="submit">Add Route</a>
+            <a href="assign_bus.php" type="submit">Assign Bus</a>
+            <a href="admin_login.php" type="submit">Logout</a>
 
-    </div>
+    	  </div>
 
-    <form action="add_model-backend.php" method="POST" class ="a_adddetails">
+    <form action="add_model-backend.php" method="POST" class ="container">
       <center>
         <label>Model_Name:</label>
         <input name = "model_name" placeholder = "Model name" type="text"><br><br>

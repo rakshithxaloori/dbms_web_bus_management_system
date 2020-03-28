@@ -1,0 +1,79 @@
+
+body{
+
+    /* background: url("bus-690508.jpg") no-repeat fixed center; */
+    color:black;
+
+    background-size: auto;
+  }
+.heading {
+    opacity:1.0;
+    /* background: url("bus-690508.jpg") no-repeat fixed center; */
+    color: black;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .options {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .options a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+   /*Change color on hover */
+  .options a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .Welcome {   
+      color:  #ddd;
+
+  }
+  .container{
+    /* background-color: #ddd; */
+    padding-top: 50px;
+    background-size: 100px 200px;
+    color:black;
+      
+  }
+  input
+{
+    height:30px;
+    padding: 10px;
+    border:black;
+    border-radius:25px;
+    outline:brown;
+    
+}
+.btn {
+    height:30px;
+    width: 150px;
+    background: #ffeb3b;
+    border: none;
+    color:#000;
+    border-radius:25px;
+}
+.create_user {
+    height:30px;
+    width: 150px;
+    background: #ffeb3b;
+    border: none;
+    color:#000;
+    border-radius:25px;
+}
+label{
+    font-size: 20px;
+}
+.assignbusclasses{
+    color:black;
+}

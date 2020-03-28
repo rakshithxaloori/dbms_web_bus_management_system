@@ -54,7 +54,7 @@ For refernce use this link:https://linoxide.com/ubuntu-how-to/install-xampp-stac
 
 3.clone the directory to /opt/lammp/htdocs/
 ----------------------------------------------------------------------------------
-then run localhost/dbms_web_bus_management_system/home.php
+then run localhost/dbms_web_bus_management_system/home.php in browser
 
 
 AND ENJOY!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

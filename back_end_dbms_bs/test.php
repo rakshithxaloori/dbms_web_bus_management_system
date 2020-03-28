@@ -1,1 +1,2 @@
 (SELECT * FROM Route WHERE Route_id = 1 ORDER by dis_from_source_in_km DESC LIMIT 1) union ALL (SELECT * FROM Route WHERE Route_id = 1 ORDER by dis_from_source_in_km ASC LIMIT 1)
+SELECT * FROM Bus as b where b.Bus_id not in (SELECT Bus_id FROM Travel_on ) ORDER BY b.Bus_id;

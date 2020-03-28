@@ -26,7 +26,7 @@ a:hover, a:active {
 </head>
     <body>
     	<div class="header">
-    		<h1>Bus Booking Platform<-AddStation</h1>
+    		<h1>Bus Booking Platform<-AssignBus</h1>
 
         <div class="admins_top_nav">
 
@@ -70,6 +70,27 @@ a:hover, a:active {
               echo $echo_stm;
             }
         ?>
+      </div>
+      <div class="Buses_assigned">
+      <h2>Assigned Buses:</h2>
+      <?php 
+          require_once "dbconnect.php";
+          $res2=mysqli_query($con,"SELECT b.Bus_id,b.vehicle_no,b.Capacity,b.Model_name,t.Route_id,ar.Route_name FROM Bus as b,Travel_on as t,ALL_ROUTES as ar where ar.Route_id=t.Route_id and b.Bus_id=t.Bus_id and b.Bus_id in (SELECT Bus_id FROM Travel_on ) ORDER BY b.Bus_id;");
+          $numR2=mysqli_num_rows($res2);
+          if($numR2==0){
+            echo "<h2>NO BUSES Assigned !</h1>";
+          }
+          else{
+            $st="<table class=\"buses_ass\"><tr><th>Bus_id</th><th>Vehicle_no</th><th>Capacity</th><th>Model_Name</th><th>Route_id</th><th>Route_Name</th></tr>";
+             while($rows2=mysqli_fetch_array($res2)){
+              $st=$st."<tr><td>{$rows2[0]}</td><td>{$rows2[1]}</td><td>{$rows2[2]}</td><td>{$rows2[3]}</td><td>{$rows2[4]}</td><td>{$rows2[5]}</td></tr>";
+              // echo "{$rows2[2]}";
+             }
+            $st=$st."</table>";
+            echo $st;
+          }
+      ?>
+            
       </div>
       <div class="routes_available">
         <h2>Routes Available:</h2>
@@ -136,7 +157,7 @@ a:hover, a:active {
               $res1=mysqli_query($con,"SELECT * FROM Bus as b where b.Bus_id not in (SELECT Bus_id FROM Travel_on ) ORDER BY b.Bus_id;");
               $numR1=mysqli_num_rows($res1);
               if($numR1==0){
-                echo "<h2>NO BUSES !</h1>";
+                echo "<h2>NO BUSES to be Assigned!</h1>";
               }
               else{
                 while($rows1=mysqli_fetch_array($res1)){
@@ -148,23 +169,11 @@ a:hover, a:active {
         <label>Assign Route:</label>
         <select class= assign_route_select name="ass_route">
           <?php 
-            // require_once "dbconnect.php";
-            // $res=mysqli_query($con,"SELECT * FROM Bus as b where b.Bus_id not in (SELECT Bus_id FROM Travel_on ) ORDER BY b.Bus_id;");
-            // $numR=mysqli_num_rows($res);
-            // if($numR==0){
-            //   echo "<h2>NO BUSES !</h1>";
-            // }
-            // else{
-            //   while($rows=mysqli_fetch_array($res)){
-            //     echo "<option value=\"{$res[0]}\">{$res[0]}</option>";
-            //   }
-            // }
             require_once "dbconnect.php";
             $get_routes1="SELECT DISTINCT Route_id from Route ORDER BY Route_id;";
             $result_routes1 = mysqli_query($con, $get_routes1);
             $numResults_routes1=mysqli_num_rows($result_routes1);
         
-            // $flag=0;
             if($numResults_routes1==0){
             echo "<h3>No routes are created!</h3>";
             }
@@ -175,9 +184,31 @@ a:hover, a:active {
             }
           ?>
         </select>
-        <button class="btn success" type = "submit">AssignBus</button>   <button class="btn danger" type = "reset">Clear</button>
-        
+        <button class="btn success" type = "submit">AssignBus</button>
       </form>
+    </div>
+    <div class="Delete_buses_assigned">
+      <h2>Remove Buses assigned:</h2>
+      <form action = "deletebusroute-backend.php" method="POST" class="remove_bus_ass">
+      <label>Remove Bus:</label>
+        <select class= remove_bus_select name ="rem_bus">
+        <?php 
+              require_once "dbconnect.php";
+              $res2=mysqli_query($con,"SELECT * FROM Bus as b where b.Bus_id  in (SELECT Bus_id FROM Travel_on ) ORDER BY b.Bus_id;");
+              $numR2=mysqli_num_rows($res2);
+              if($numR2==0){
+                echo "<h2>NO BUSES Assigned !</h1>";
+              }
+              else{
+                while($rows2=mysqli_fetch_array($res2)){
+                  echo "<option value=\"{$rows2[0]}\">{$rows2[0]}</option>";
+                }
+              }
+          ?>
+        </select>
+        <button class="btn success" type = "submit">RemoveBus</button>
+
+      </form>        
     </div>
 </body>
 </html>

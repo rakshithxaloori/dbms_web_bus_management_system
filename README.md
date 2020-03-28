@@ -33,13 +33,13 @@ How to Run the Webpage in Xammp server:
 
 2.Follow the instructions:
 ---------------------------------------------------------------------------------
-$ sudo -s
+1.$ sudo -s
 (super user)
-$ chmod +x xampp-linux-x64-7.1.10-0-installer.run 
+2.$ chmod +x xampp-linux-x64-7.1.10-0-installer.run 
 (what ever version change it)
-$ ./xampp-linux-x64-7.1.10-0-installer.run
+3.$ ./xampp-linux-x64-7.1.10-0-installer.run
 (what ever version change it)
-$ /opt/lampp/xampp start
+4.$ /opt/lampp/xampp start
 ( to start all servers and mysql)
 
 For refernce use this link:https://linoxide.com/ubuntu-how-to/install-xampp-stack-ubuntu-16-04-terminal/

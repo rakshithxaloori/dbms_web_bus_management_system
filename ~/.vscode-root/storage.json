@@ -40,7 +40,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -350,8 +351,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.toggleFullScreen",
-                                    "label": "&&Full Screen",
-                                    "checked": true
+                                    "label": "&&Full Screen"
                                 },
                                 {
                                     "id": "workbench.action.toggleZenMode",
@@ -576,7 +576,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1453,12 +1454,11 @@
             "folder": "file:///opt/lampp/htdocs/dbms_web_bus_management_system",
             "backupPath": "/opt/lampp/htdocs/dbms_web_bus_management_system/~/.vscode-root/Backups/bff8c2a70998c05d904b042e57b34989",
             "uiState": {
-                "mode": 3,
-                "display": 13761487533244482,
-                "width": 1296,
-                "height": 704,
+                "mode": 0,
                 "x": 70,
-                "y": 64
+                "y": 64,
+                "width": 1296,
+                "height": 704
             }
         },
         "openedWindows": []

@@ -127,7 +127,8 @@ a:hover, a:active {
                 $sql = "INSERT INTO ALL_ROUTES (Route_id, Route_name)
                 VALUES('{$row_routes[0]}', '$route_name')";
                 $SQ=mysqli_query($con,$sql);
-                if(!$SQ) echo("Error description: ".mysqli_error($con));  
+                if(!$SQ) require_once "assign_bus.php";
+                //echo("Error description: ".mysqli_error($con));  
               }
             }
             $echo_st=$echo_st."</table>";
@@ -172,11 +173,17 @@ a:hover, a:active {
               }
             }
           ?>
-        </select>
+        </select><br><br>
+        <label>Start_Time:</label>
+        <input type ="time" placeholder="start_time" name="start_time"></input><br><br>
+        <label>Break_time:</label>
+        <input type="time" placeholder="break_time" name="break_time"></input><br><br>
+
         <button class="btn success" type = "submit">AssignBus</button>
+
       </form>
     </div>
-    <div class="Delete_buses_assigned">
+    <div classgit comi="Delete_buses_assigned">
       <h2>Remove Buses assigned:</h2>
       <form action = "deletebusroute-backend.php" method="POST" class="remove_bus_ass">
       <label>Remove Bus:</label>

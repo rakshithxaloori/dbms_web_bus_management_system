@@ -93,7 +93,7 @@ a:hover, a:active {
                             <label>
                                 Time From Source<span class="req">*</span>
                             </label>
-                            <input type="number"required autocomplete="off" name="time_from_source[]"/>
+                            <input type="time"required autocomplete="off" name="time_from_source[]"/>
                         </div>
                     </td>
                     <td><button type="button" name="add" id="add" class="btn btn-success">+</button></td>
@@ -110,7 +110,7 @@ a:hover, a:active {
       var i = 1;
       $('#add').click(function(){
           i++;
-          $('#dynamic_field').append('<tr id="row'+i+'"><td><div class="field-wrap"><label>Station Code<span class="req">*</span></label><select id="stations" name="station_code[]" form="route_details"><?php require_once "dbconnect.php";$query="SELECT * FROM Station ORDER BY Station_Name";$result = mysqli_query($con, $query);$numResults = mysqli_num_rows($result);if($numResults==0){echo'<center><h3 style="color:white;background-color:#333;">No Stations created create_new!</h3></center>';require_once "add_station.php";}else{while ($row=mysqli_fetch_array($result)) {echo "<option value=\"{$row[0]}\">{$row[0]}-{$row[2]}</option>";}}?></select></div><div class="field-wrap"><label>Distance From Source<span class="req">*</span></label><input type="number"required autocomplete="off" name="distance_from_source[]"/></div><div class="field-wrap"><label>Time From Source<span class="req">*</span></label><input type="number"required autocomplete="off" name="time_from_source[]"/></div></td></td><td><button name="remove" id="'+i+'" class="btn btn-danger btn_remove">X</button></td></tr>');
+          $('#dynamic_field').append('<tr id="row'+i+'"><td><div class="field-wrap"><label>Station Code<span class="req">*</span></label><select id="stations" name="station_code[]" form="route_details"><?php require_once "dbconnect.php";$query="SELECT * FROM Station ORDER BY Station_Name";$result = mysqli_query($con, $query);$numResults = mysqli_num_rows($result);if($numResults==0){echo'<center><h3 style="color:white;background-color:#333;">No Stations created create_new!</h3></center>';require_once "add_station.php";}else{while ($row=mysqli_fetch_array($result)) {echo "<option value=\"{$row[0]}\">{$row[0]}-{$row[2]}</option>";}}?></select></div><div class="field-wrap"><label>Distance From Source<span class="req">*</span></label><input type="number"required autocomplete="off" name="distance_from_source[]"/></div><div class="field-wrap"><label>Time From Source<span class="req">*</span></label><input type="time"required autocomplete="off" name="time_from_source[]"/></div></td></td><td><button name="remove" id="'+i+'" class="btn btn-danger btn_remove">X</button></td></tr>');
       });
 
       $(document).on('click','.btn_remove', function(){

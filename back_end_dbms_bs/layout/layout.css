@@ -1,14 +1,15 @@
 
 body{
-
-    /* background: url("bus-690508.jpg") no-repeat fixed center; */
+    background: lightblue ;
+    /* background: lightblue url("bus-690508.jpg") no-repeat fixed center; */
     color:black;
 
     background-size: auto;
   }
 .heading {
     opacity:1.0;
-    /* background: url("bus-690508.jpg") no-repeat fixed center; */
+    background: lightblue ;
+    /* background: lightblue url("bus-690508.jpg") no-repeat fixed center; */
     color: black;
     text-align: center;
     padding: 10px;

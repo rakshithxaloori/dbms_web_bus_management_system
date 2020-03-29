@@ -17,7 +17,7 @@ if(isset($_SESSION['a_loggedin']) && $_SESSION['a_loggedin'] == true){
 
             // if (empty(trim($station))) continue;
 
-            $sql = "INSERT INTO Route(Route_id, station_code, dis_from_source_in_km, time_from_source_in_min,created_by)
+            $sql = "INSERT INTO Route(Route_id, station_code, dis_from_source_in_km, time_from_source,created_by)
                     VALUES('$route_id', '$station_code', '$dist_from_source', '$time_from_source','$created_by')";
             $SQ=mysqli_query($con, $sql);
             echo'<center><h2 style="color:white;background-color:#333;">Route Successfully Registered</h2></center>';

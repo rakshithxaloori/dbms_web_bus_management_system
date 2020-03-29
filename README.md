@@ -16,6 +16,7 @@ or added by the admins.
 
 ---
 
+
 Group members:
 
 - Aloori Rakshith 17CS10004
@@ -24,3 +25,43 @@ Group members:
 - Tallapally Maniteja 17CS10053
 
 ---
+
+How to Run the Webpage in Xammp server:
+
+1.Download Xamppserver from this link:https://www.apachefriends.org/download.html
+---------------------------------------------------------------------------------
+
+2.Follow the instructions:
+---------------------------------------------------------------------------------
+$ sudo -s
+--
+(super user)
+--
+$ chmod +x xampp-linux-x64-7.1.10-0-installer.run 
+--
+(what ever version change it)
+--
+$ ./xampp-linux-x64-7.1.10-0-installer.run
+--
+(what ever version change it)
+--
+$ /opt/lampp/xampp start
+--
+( to start all servers and mysql)
+--
+
+For refernce use this link:https://linoxide.com/ubuntu-how-to/install-xampp-stack-ubuntu-16-04-terminal/
+
+3.clone the directory to /opt/lammp/htdocs/
+----------------------------------------------------------------------------------
+then run localhost/dbms_web_bus_management_system/home.php in browser
+
+
+AND ENJOY!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+
+

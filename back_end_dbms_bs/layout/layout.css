@@ -64,6 +64,15 @@ body{
     color:#000;
     border-radius:25px;
 }
+/* .btn button:hover{
+    height:30px;
+    width: 150px;
+    opacity: 0.5;
+    background: red;
+    border: none;
+    color:#000;
+    border-radius:25px;
+} */
 .create_user {
     height:30px;
     width: 150px;

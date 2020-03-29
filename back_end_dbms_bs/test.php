@@ -2,3 +2,6 @@
 SELECT * FROM Bus as b where b.Bus_id not in (SELECT Bus_id FROM Travel_on ) ORDER BY b.Bus_id;
 
 SELECT b.Bus_id,r.Route_id,ar.Route_name,r.station_code,r.dis_from_source_in_km,r.time_from_source_in_min FROM Travel_on as t,Bus as b,Route as r,ALL_ROUTES as ar WHERE ar.Route_id=t.Route_id and r.Route_id=t.Route_id and b.Bus_id IN(SELECT Bus_id FROM Travel_on)ORDER BY r.time_from_source_in_min ASC;
+
+
+SELECT Bus.vehicle_no,Bus.Model_name,a.arrv_time as source_arrv,a.dept_time as source_dept,b.arrv_time as dest_arrv,b.dept_time as dest_dept,ALL_ROUTES.Route_name FROM Route as r,Route as s,Travel_on,Travels_through as a,Travels_through as b,ALL_ROUTES,Bus WHERE r.station_code="AN" and s.station_code="PL"and r.dis_from_source_in_km <=s.dis_from_source_in_km and r.Route_id=s.Route_id and r.Route_id=Travel_on.Route_id and Travel_on.Bus_id=a.Bus_id and Travel_on.Bus_id=b.Bus_id and a.station_code=r.station_code and b.station_code=s.station_code and ALL_ROUTES.Route_id=r.Route_id and Bus.Bus_id=Travel_on.Bus_id ORDER BY Travel_on.Bus_id

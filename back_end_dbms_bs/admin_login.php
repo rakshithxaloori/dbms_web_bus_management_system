@@ -1,8 +1,10 @@
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="layoutsstyle.css">
+	<link rel="stylesheet" href="./layout/layout.css"type="text/css"> 
+	<link href="css/bootstrap.min.css.map" rel="stylesheet" type="text/css"  >
+
 	<title>Bus Management System | Admin Login</title>
-	<style>
+	<!-- <style>
 		
 			a:link, a:visited {
   background-color: #2196F3;
@@ -21,13 +23,22 @@ a:hover, a:active {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 		
-	</style>
+	</style> -->
 </head>
 <body >
-	<br><br>
+	<!-- <br><br> -->
 	<center>
 		<h1 class="header">Welcome to Bus Booking Database Management Platform</h1>
+		<div class="options">
+	      <a class="=home" href="./home.php">HOME</a>
+    	  <a class="=book_ticket" href="./book_ticket.php">BOOK TICKET</a> 
+      	  <a class="=Register_admin" href="./reg_admin.php">REGISTER ADMIN</a> 
+      	  <a class="=Register_user" href="./reg_user.php">REGISTER USER</a> 
+       	  <a class="=Login_admin" href="./admin_login.php">LOGIN ADMIN</a> 
+          <a class="=Login_user" href="./user_login.php">LOGIN USER</a>
+    	</div>
 		<p class = "header">Please Login to Manage BusBooking Database</p>
+		
 		<link rel="stylesheet" href="./layout/layout.css"type="text/css"> 
 		<link href="css/bootstrap.min.css.map" rel="stylesheet" type="text/css"  >
 

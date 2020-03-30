@@ -1,22 +1,5 @@
 <?php 
-function insert_ticket($con,$ticket_no,$Bus_id,$Source_code,$Dest_code,$model_name,$created_by,$contact_no,$n_passengers){
-    $bus_id_=strval($Bus_id);
-    echo $model_name;
 
-    $query_f="SELECT (Model.farepkm*(d.dis_from_source_in_km-s.dis_from_source_in_km)) as fare FROM Bus,Route as s,Route as d, Model,Travel_on WHERE Model.Model_name='$model_name' and Bus.Bus_id=4 and Bus.Model_name=Model.Model_name and s.station_code='$Source_code' and d.station_code='$Dest_code' and Bus.Bus_id=Travel_on.Bus_id and s.Route_id=Travel_on.Route_id and d.Route_id=Travel_on.Route_id and s.Route_id=d.Route_id";
-    $query_fare=mysqli_query($con,$query_f);
-    $num_RES=mysqli_num_rows($query_fare);
-    echo $num_RES;
-    // if($num_RES>0){
-        $row_fare=mysqli_fetch_array($query_fare);
-
-        $total_fare=$row_fare[0]*$n_passengers;
-        $add_ticket=mysqli_query($con,"INSERT INTO Ticket(Ticket_id,Bus_id,Source_code,Dest_code,total_fare,created_by,contact_no) VALUES ('$ticket_no',$Bus_id,'$Source_code','$Dest_code','$total_fare',$created_by','$contact_no')");
-        if(!($add_ticket))echo("Error description: ".mysqli_error($con));
-    // }
-    
-
-}
 function insert_sql_pass($con,$p_no,$p_name,$p_age,$p_gender,$created_by,$ticket_no){
     
     $sql = "INSERT INTO Passenger(Pass_id,Ticket_id,Name,Age, gender,created_by)
@@ -33,30 +16,30 @@ function insert_sql_pass($con,$p_no,$p_name,$p_age,$p_gender,$created_by,$ticket
 require_once "dbconnect.php";
 session_start();
 if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true){
-        while(1)
-            {
-                $number=1;
-                $query_ticket=mysqli_query($con,"SELECT Ticket.Ticket_id FROM Ticket WHERE Ticket.Ticket_id=$number");
-                $num_rand=mysqli_num_rows($query_ticket);
-                if($num_rand==0){
-                    break;
-                }
-                $number=$number+1;
-            }
+        
         $created_by=$_SESSION["username"];
         $bus_id=$_POST["bus_id_ticket"];
-        $contact_no=$_POST["contact_no"];
         $source_code=$_POST["source_code_ticket"];
         $dest_code=$_POST["dest_code_ticket"];
-        echo $dest_code;
-
+        $fare=$_POST["fare_per_person"];
         $model_name=$_POST["model_name_ticket"];
+        $ticket_no=$_SESSION["ticket_no"]-1;
         $no_of_pass=0;
-            
+
+        echo $created_by;
+        echo $bus_id;
+        echo $contact_no;
+        echo $source_code;
+        echo $dest_code;
+        echo $fare;
+        echo $model_name;
+        echo $no_of_pass;
+    
         $p_no_1 = mysqli_real_escape_string($con, $_POST['p_no_1']);
         $p_name_1=mysqli_real_escape_string($con, $_POST['p_name_1']);
         $p_age_1=mysqli_real_escape_string($con, $_POST['p_age_1']);
         $p_gender_1=mysqli_real_escape_string($con, $_POST['p_gender_1']);
+
         
 
 
@@ -118,8 +101,8 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true){
         //     $no_of_pass=$no_of_pass+1;          
         // }
 
-        insert_ticket($con,$number,$bus_id,$source_code,$dest_code,$model_name,$created_by,$contact_no,$no_of_pass);
-        // insert_sql_pass($con,$p_no_1,$p_name_1,$p_age_1,$p_gender_1,$created_by,$number);
+        // insert_ticket($con,$number,$bus_id,$source_code,$dest_code,$model_name,$created_by,$contact_no,$no_of_pass);
+        insert_sql_pass($con,$p_no_1,$p_name_1,$p_age_1,$p_gender_1,$created_by,$ticket_no);
         
         if($_SESSION['username']=="guest@guest"){
             require_once "home.php";

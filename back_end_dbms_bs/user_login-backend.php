@@ -16,6 +16,7 @@ if($numResults == 1)
 	mysqli_query($con, $query);
 	session_start();
 	$_SESSION['loggedin']=true;
+	if(!($_SESSION["ticket_no"]>1))$_SESSION["ticket_no"]=1;
 	$_SESSION['username']=$username;
 
 	require_once "usershome-backend.php";

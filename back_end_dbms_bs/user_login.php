@@ -31,7 +31,6 @@ a:hover, a:active {
 		<h1 class="heading">Welcome to Bus Booking Database Management Platform</h1>
 		<div class="options">
 	      <a class="=home" href="./home.php">HOME</a>
-    	  <a class="=book_ticket" href="./book_ticket.php">BOOK TICKET</a> 
       	  <a class="=Register_admin" href="./reg_admin.php">REGISTER ADMIN</a> 
       	  <a class="=Register_user" href="./reg_user.php">REGISTER USER</a> 
        	  <a class="=Login_admin" href="./admin_login.php">LOGIN ADMIN</a> 
